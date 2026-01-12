@@ -11,6 +11,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    background-color: black
 }
 
 html{
@@ -18,7 +19,7 @@ html{
 }
 
 p{
-    color: rgb(85, 85, 85);
+    color: rgb(243, 243, 243);
 }
 /* TRANSITION */
 
@@ -45,7 +46,7 @@ nav{
 }
 
 a{
-    color: black;
+    color: rgb(255, 253, 253);
     text-decoration: none;
     text-decoration-color: white;
 }
@@ -60,6 +61,7 @@ a:hover{
 
 .logo{
     font-size: 2rem;
+    color: rgb(255, 253, 253);
 }
 .logo:hover{
   cursor: default;
@@ -87,7 +89,7 @@ a:hover{
 .hamburger-icon span{
     width: 100%;
     height:  2px;
-    background-color: black;
+    background-color: white;
     transition: all 0.3s ease-in-out;
 
 }
@@ -108,7 +110,7 @@ a:hover{
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  color: black;
+  color: white;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
 }
@@ -196,6 +198,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  color: rgb(255, 253, 253);
 }
 
 #socials-container {
@@ -204,7 +207,9 @@ section {
   margin-top: 1rem;
   gap: 1rem;
 }
-
+h3{
+    color: rgb(255, 253, 253);
+}
 /* ICONS */
 
 .icon {
@@ -231,6 +236,7 @@ section {
 .btn-color-1,
 .btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
+  
 }
 
 .btn-color-1:hover,
@@ -249,7 +255,7 @@ section {
 }
 
 .btn-color-2 {
-  background: none;
+  background-color: white;
 }
 
 .btn-color-2:hover {
@@ -275,6 +281,7 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+  
 }
 
 .about-containers,
@@ -295,7 +302,7 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: rgb(32, 32, 32);
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -320,7 +327,7 @@ section {
 }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
+  color: rgb(252, 249, 249);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -378,7 +385,12 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
-
+.details-container.color-container{
+    background: rgb(32, 32, 32);
+}
+.experience-sub-title.project-title{
+    color: white;
+}
 /* CONTACT */
 
 #contact {
