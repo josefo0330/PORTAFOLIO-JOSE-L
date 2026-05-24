@@ -94,7 +94,7 @@ a:hover{
 }
 
 .menu-links {
-  position: absolute;
+  position: relative;
   top: 100%;
   right: 0;
   background-color: black;
@@ -102,6 +102,7 @@ a:hover{
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  z-index: 10
 }
 
 .menu-links a {
@@ -112,10 +113,12 @@ a:hover{
   color: white;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
+  z-index: 10
 }
 
 .menu-links li {
   list-style: none;
+  z-index: 10
 }
 
 .menu-links.open {
